@@ -1,0 +1,219 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+  
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+.social_media{
+    position: fixed;
+    right: 0px;
+    top: 230px;
+    background-color: #850AE5;
+    border: 10px solid #850AE5;
+    color: white;
+    font-size: medium;
+    border-radius:10px ;
+    width: 100px;
+    height: 280px;
+}
+.comedia{
+    display: flex;
+    justify-content: center;
+}
+.pi{
+    position:absolute;
+    top: 0px;
+    
+    left: 1330px;
+    width: 100px;
+    height: 15px;
+
+}
+h1::before{
+  content: '';
+  display: inline-block;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  
+}
+h1::after{
+  content: '';
+  display: inline-block;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  
+}
+
+
+.footer-text span:hover {
+    background-color: plum;
+}
+.footer-logo:hover{
+    background-color: gray;
+    
+}
+.button:hover{
+    background-color: orange;
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+.nav-link:focus {
+    font-size: 24px;
+    border: 3px inset lightblue;
+    text-decoration: none;
+    display: block;
+    background-color: blue;
+    color:orange ;
+}
+
+.comedia:hover{
+    
+    border-bottom: 5px double orange;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link:hover {
+    font-size: 24px;
+    color: lightskyblue;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid lightskyblue;
+}
+.article-but:hover{
+    background-color: white;
+    border:5px solid blue;
+    color:rgb(42, 108, 207);
+}
+.post:hover{
+    color:white;
+    background-color: cyan;
+}
+.post-text:hover {
+    font-size: 25px;
+    color: black ;
+     font-weight:700;
+}
+.post img{
+    background-color: white;
+}
+.art:hover{
+    
+    
+    color: darkorange;
+    font-weight:700;
+}
+.im:hover{
+    width: 20px;
+    
+    opacity: 1;
+}
+.im{
+    width: 20px;
+    opacity: 0;
+}
